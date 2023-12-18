@@ -69,11 +69,15 @@ img{
 .subtext{
     display: flex;
     justify-content: space-between;
+    gap: 16px;
 
 }
 .under{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 100px;
+    gap: 16px;
 }
 .image{
     border-radius: 9px;
